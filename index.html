@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epistemologia</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        display: grid;
+        place-items: center;
+      }
+      .circulo {
+        width: 250px;
+        aspect-ratio: 1/1;
+        display: grid;
+        place-items: center;
+        border-radius: 100%;
+      }
+      #crenca {
+        margin-top: -100px;
+        background: #f009;
+      }
+      #verdade {
+        background: #0f09;
+      }
+      #conhecimento {
+        width: 20px;
+        margin-top: -400px;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>O que é conhecimento?</h1>
+    <div>
+      <div id="verdade" class="circulo">Verdade</div>
+      <div id="crenca" class="circulo">Crença</div>
+    </div>
+    <div id="conhecimento" class="circulo"></div>
+  </body>
+</html>
